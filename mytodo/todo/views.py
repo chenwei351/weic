@@ -2,7 +2,7 @@ from django.shortcuts import render_to_response
 from django.http import HttpResponseRedirect,Http404
 from  django.template import  RequestContext
 from  django.contrib.auth.models import  User
-from todo.models import todo
+from .models import todo
 
 # Create your views here.
 
